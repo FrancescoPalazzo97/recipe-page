@@ -1,0 +1,17 @@
+:root {
+    --bg: hsl(30, 54%, 90%);
+    --bg-card: hsl(0, 0%, 100%);
+    --text: hsl(24, 5%, 18%);
+    --text-mark: hsl(14, 45%, 36%);
+    --text-mark-alternative: hsl(30, 10%, 34%);
+    --text-mark-alternative: hsl(332, 51%, 32%);
+    --bg-section: hsl(330, 100%, 98%);
+
+    --fs-m: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
