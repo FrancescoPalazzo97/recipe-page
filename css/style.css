@@ -8,10 +8,61 @@
     --bg-section: hsl(330, 100%, 98%);
 
     --fs-m: 16px;
+    --fw-s: 400;
+    --fw-m: 600;
+    --fw-lg: 700;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+main {
+    background-color: var(--bg);
+    font-size: var(--fs-m);
+    font-family: "Outfit", sans-serif;
+    padding: 100px 0;
+    color: var(--text);
+}
+
+/* CARD */
+
+#card {
+    background-color: var(--bg-card);
+    width: 50%;
+    padding: 40px;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+/* SECTION HEAD */
+
+#head img {
+    border-radius: 15px;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 36px;
+}
+
+#head p {
+    margin-bottom: 20px;
+}
+
+.preparation-time {
+    background-color: var(--bg-section);
+}
+
+/* UTILITY */
+
+.img-fluid {
+    width: 100%;
+}
+
+.title-ff {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
 }
